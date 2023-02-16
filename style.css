@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Roboto:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.top-bar {background-color: rgb(23, 162, 184);}
+
+.ul-none {list-style: none;}
+
+.icon {height: 15px;}
+
+.v-flex {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+.h-flex {
+    display: flex;
+    margin-top: 10px;
+    gap: 4px;
+    align-items: center;
+}
+.about-user {
+    font-family: 'Balsamiq Sans', cursive;
+    width: 100%;
+}
+.border {
+    border-right: 3px solid rgb(204, 204, 204);
+    border-bottom: 3px solid rgb(204, 204, 204);
+    border-left: 3px solid rgb(204, 204, 204);
+}
+.user-details {
+    display: flex;
+    padding: 40px 20px;
+}
+#user-card {
+    background-color: blanchedalmond;
+    margin: 40px 80px 20px 80px;
+}
+#user-pp {
+    height: 60px;
+    position: relative;
+    left: 30px;
+    top: 40px;
+}
+#username {
+    font-size: 22px;
+    font-weight: bold;
+}
